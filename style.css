@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/08/18/38/95/360_F_818389571_vl6T3trcwfJBPOuKAuQMA1bsYc3zhpwV.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.container {
+	min-width: 400px;
+	height: 430px;
+	border-color: #000;
+	border: 0.3px solid;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: dark;
+    margin-bottom: 10px; 
+    position: relative;
+}
+
+p {
+	font-weight: 600;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.email-box {
+    border-color: #000;
+    border: 0.3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 30px;
+    transition: border-color 0.3s ease;
+    gap: 10px; 
+}
+
+.email-box input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.email-box i {
+    margin-right: 10px; 
+}
+
+.email-box input:focus {
+    border-color: #000;
+}
+
+.email-box i {
+    margin-right: 12px;
+    color: #888;
+    font-size: 18px;
+}
+
+.email-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email-box:hover {
+    border-color: #4285F4;
+}
+
+.download-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(66, 133, 244, 0.2);
+}
+
+.download-btn:hover {
+    background-color: #357ae8;
+    transform: translateY(-3px);
+}
+.copyright {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
